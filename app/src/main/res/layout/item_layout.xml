@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:weightSum="10"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvSSID"
+            android:textSize="30dp"
+            android:text="우리집 와이파이지롱"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvBSSID"
+            android:textSize="15dp"
+            android:text="(123.4564.456789:ewj:d123)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

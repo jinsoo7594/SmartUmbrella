@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <TextView
+        android:id="@+id/temp3"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="63dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintLeft_toRightOf="@+id/sky3"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:text="temp" />
+
+    <TextView
+        android:id="@+id/sky3"
+        android:layout_width="59dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="63dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        tools:layout_constraintRight_creator="1"
+        tools:text="Rainy" />
+
+    <ImageView
+        android:id="@+id/weatherIconImageView3"
+        android:layout_width="180dp"
+        android:layout_height="123dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:srcCompat="@drawable/icon_na"
+        android:layout_marginLeft="2dp"
+        android:layout_marginStart="2dp" />
+
+    <TextView
+        android:id="@+id/stars3"
+        android:layout_width="102dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="123dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintLeft_toLeftOf="@+id/weatherIconImageView3"
+        app:layout_constraintRight_toRightOf="@+id/weatherIconImageView3"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:text="Rainy" />
+
+    <TextView
+
+        android:layout_width="39dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="end"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+
+        android:layout_marginRight="40dp"
+        app:layout_constraintVertical_bias="0.517"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        android:layout_marginEnd="40dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.0" />
+
+</android.support.constraint.ConstraintLayout>

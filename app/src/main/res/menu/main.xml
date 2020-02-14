@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/HotSpotOn"
+        android:orderInCategory="1"
+        android:title="HotSpotOn"/>
+
+    <item
+        android:id="@+id/HotSpotOff"
+        android:orderInCategory="1"
+        android:title="HotSpotOff"/>
+
+    <item
+        android:id="@+id/MissingSpot"
+        android:orderInCategory="1"
+        android:title="MissingSpot"/>
+
+
+    <item
+        android:id="@+id/Navigation"
+        android:orderInCategory="1"
+        android:title="Navigation"/>
+
+
+    <item
+        android:id="@+id/LocationTrackingStart"
+        android:orderInCategory="1"
+        android:title="LocationTrackingStart"/>
+
+    <item
+        android:id="@+id/LocationTrackingStop"
+        android:orderInCategory="1"
+        android:title="LocationTrackingStop"/>
+
+
+
+
+</menu>

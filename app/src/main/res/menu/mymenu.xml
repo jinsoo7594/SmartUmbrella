@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/apple"
+        android:icon="@drawable/arrow"
+        android:title="Apple"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/grape"
+        android:icon="@drawable/arrow"
+        android:title="Grape"
+        android:visible="true"/>
+    <item
+        android:id="@+id/banana"
+        android:icon="@drawable/arrow"
+        android:title="Banana"
+        android:visible="true"/>
+
+</menu>
